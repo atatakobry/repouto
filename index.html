@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Shower Presentation Engine</title>
+	<title>Doki Doki Literature Club!</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,198 +9,235 @@
 </head>
 <body class="shower list">
 
-	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
-	</header>
-
-	<section class="slide" id="cover">
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
+	<section class="slide clear" id="intro">
+		<h2>Doki Doki Literature Club!</h2>
+		<p>Alexandr Loginov, Marugoto 1b, 2017–2018</p>
 		<figure>
-			<img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-			<figcaption class="copyright right white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
+			<img class="cover" src="pictures/promo.png" alt="Doki Doki Literature Club!" />
 		</figure>
 		<style>
-			#cover h2 {
-				margin: 30px 0 0;
-				color: white;
-				text-align: center;
-				font-size: 70px;
+			#intro {
+				background: url(pictures/tilebg.png) center center repeat;
 			}
 
-			#cover p {
-				margin: 10px 0 0;
+			#intro h2 {
+				margin: 280px 0 0;
+				padding: 20px 0 0;
+				color: #000;
 				text-align: center;
-				color: white;
-				font-style: italic;
-				font-size: 20px;
+				font-size: 72px;
+				background-color: rgba(255, 255, 255, 0.75);
 			}
 
-			#cover p a {
-				color: white;
+			#intro p {
+				padding: 10px 0 20px;
+				text-align: center;
+				color: #000;
+				font-weight: bold;
+				font-size: 24px;
+				background-color: rgba(255, 255, 255, 0.75);
 			}
 		</style>
 	</section>
 
-	<section class="slide">
-		<h2>Shower key features</h2>
-		<ol>
-			<li>Built on HTML, CSS and JavaScript</li>
-			<li>Works in all modern browsers</li>
-			<li>Themes are separated from engine</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
+	<section class="slide clear" id="preview">
+		<figure>
+			<video class="cover" poster="pictures/doki_doki.png" controls>
+				<source src="pictures/video.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</figure>
 	</section>
 
-	<section class="slide">
-		<h2>Plain text on your slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
+	<section class="slide" id="doki_doki">
+		<figure>
+			<img class="cover" src="pictures/doki_doki.png" alt="Doki Doki!" />
+		</figure>
+		<style>
+			#doki_doki {
+				background: url(pictures/tilebg.png) center center repeat;
+			}
+		</style>
 	</section>
 
-	<section class="slide">
-		<h2>Two columns if you like</h2>
+	<section class="slide" id="causes_of_death">
+		<p class="next">
+			⚠️Suicide:
+			<br />
+			21,017 deaths (2%)
+		</p>
+		<figure>
+			<img class="cover" src="pictures/causes_of_death.png" alt="Top 10 Causes of Death in Japan, 2016" />
+			<figcaption class="copyright right black">
+				Top 10 Causes of Death in Japan, 2016
+			</figcaption>
+		</figure>
+		<style>
+			#causes_of_death p {
+				position: absolute;
+				top: 280px;
+				left: 50px;
+				font-size: 18px;
+				font-weight: bold;
+				line-height: 1;
+				color: #9e480e;
+			}
+		</style>
+	</section>
+
+	<section class="slide" id="domestic_violence">
+		<figure>
+			<img class="cover" src="pictures/domestic_violence.png" alt="Number of Domestic Violence in Japan, 2009-2014" />
+			<figcaption class="copyright right black">
+				Number of Domestic Violence in Japan, 2009-2014
+			</figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" id="child_abuse">
+		<figure>
+			<img class="cover" src="pictures/child_abuse.jpg" alt="Number of Child Abuse (arrested cases) in Japan, 2004-2013" />
+			<figcaption class="copyright right black">
+				Number of Child Abuse (arrested cases) in Japan, 2004-2013
+			</figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" id="author">
 		<div class="columns two">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+			<div>
+				<figure>
+					<img src="pictures/dan_salvato.jpg" alt="Dan Salvato" />
+				</figure>
+			</div>
+			<div>
+				<p>
+					Dan Salvato describes the events of the game as “an inevitable tragedy” and acknowledged that the game is kind of nihilistic.
+				</p>
+				<p>
+					<blockquote>
+						Nihilism doesn’t mean hopelessness.
+						It means that you can make what you want out of your own life,
+						out of the things you do have control over.
+					</blockquote>
+				</p>
+			</div>
 		</div>
+		<style>
+			#author p {
+				font-size: 20px;
+				line-height: 1.5;
+			}
+
+			#author blockquote {
+				margin: 40px 0 0 40px;
+				font-size: 26px;
+				line-height: 1.5;
+			}
+		</style>
 	</section>
 
-	<section class="slide">
-		<h2>All kind of lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
-				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
-				</ul>
+	<section class="slide" id="references">
+		<h2>References</h2>
+		<ul>
+			<li>
+				Doki Doki Literature Club! Official Webpage
+				<br />
+				<a href="https://ddlc.moe/">https://ddlc.moe/</a>
 			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
-	</section>
-
-	<section class="slide">
-		<h2>Serious citations</h2>
-		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
-		</figure>
-	</section>
-
-	<section class="slide">
-		<h2>Code samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
-	</section>
-
-	<section class="slide">
-		<h2>Even tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
-	</section>
-
-	<section class="slide" id="picture">
-		<h2>Pictures</h2>
-		<figure>
-			<img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-			<figcaption class="copyright right white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
-		</figure>
+			<li>
+				Doki Doki Literature Club! Review on kotaku.com
+				<br />
+				<a href="https://kotaku.com/doki-doki-literature-clubs-horror-was-born-from-a-love-1819724999">https://kotaku.com/doki-doki-literature-clubs-horror-was-born-from-a-love-1819724999</a>
+			</li>
+			<li>
+				Accumulator of Statistics Data in Japan
+				<br />
+				<a href="http://nbakki.hatenablog.com/entry/Top_10_Causes_of_Death_in_Japan_2016">http://nbakki.hatenablog.com/entry/Top_10_Causes_of_Death_in_Japan_2016</a>
+				<br />
+				<a href="http://nbakki.hatenablog.com/entry/Number_of_Domestic_Violence_2014">http://nbakki.hatenablog.com/entry/Number_of_Domestic_Violence_2014</a>
+				<br />
+				<a href="http://nbakki.hatenablog.com/entry/2014/06/18/125625">http://nbakki.hatenablog.com/entry/2014/06/18/125625</a>
+			</li>
+		</ul>
 		<style>
-			#picture h2 {
-				color: white;
+			#references ul {
+				font-size: 18px;
 			}
 		</style>
 	</section>
 
-	<section class="slide">
-		<h2 class="shout shrink">You can even shout this way</h2>
-	</section>
-
-	<section class="slide">
-		<h2>Inner navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</section>
-
-	<section class="slide" id="see-more">
-		<h2 class="shout">
-			<img src="pictures/logo.svg" alt="Shower logo">
-			<a href="https://github.com/shower/shower">See more on GitHub</a>
-		</h2>
+	<section class="slide" id="just_monika">
+		<figure>
+			<img class="cover" src="pictures/just_monika.png" alt="Just Monika" />
+		</figure>
 		<style>
-			#see-more h2 {
-				font-size: 100px
-			}
-
-			#see-more img {
-				width: 0.72em;
-				height: 0.72em;
+			#just_monika img {
+				margin-top: -50px;
 			}
 		</style>
 	</section>
 
-	<footer class="badge">
-		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
-	</footer>
+	<section class="slide black" id="the_end">
+		<p>The End</p>
+		<figure>
+			<img class="cover" src="pictures/monika.jpg" alt="The End" />
+		</figure>
+		<style>
+			#the_end {
+				text-align: center;
+			}
+
+			#the_end p {
+				display: inline-block;
+				margin-top: 120px;
+				padding: 15px 20px 10px;
+				font-size: 72px;
+				font-weight: bold;
+				line-height: 1;
+				color: #ffbde1;
+				background-color: rgba(0, 0, 0, 0.75);
+			}
+
+			#the_end img {
+				opacity: 0;
+			}
+
+			#the_end.active img {
+				animation-duration: 10s;
+				animation-name: fadeOut;
+			}
+
+			@keyframes fadeOut {
+				0% { opacity: 1; }
+				100% { opacity: 0; }
+			}
+		</style>
+	</section>
 
 	<div class="progress"></div>
 
+	<style>
+		.progress::before {
+			background-color: #ffbde1;
+		}
+
+		.copyright.right {
+			bottom: 50px;
+			right: 30px;
+			font-size: 16px;
+		}
+
+		.slide:after {
+			visibility: hidden;
+		}
+
+		.slide blockquote::before {
+			font-size: 4em;
+		}
+	</style>
+
 	<script src="node_modules/shower-core/shower.min.js"></script>
-	<!-- Copyright © 2018 Yours Truly, Famous Inc. -->
 
 </body>
 </html>
